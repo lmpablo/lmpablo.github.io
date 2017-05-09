@@ -1,0 +1,126 @@
+body {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #444;
+    font-weight: 300;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", "Palatino", "Times", serif;
+    font-weight: 900;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.heading {
+    padding: 30px 0;
+    margin-left: 0;
+}
+
+.heading h1 {
+    font-weight: 900;
+    font-size: 40pt;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.heading h1 .sub {
+    font-weight: 400;
+    font-style: italic;
+    color: #888;
+}
+
+.anchor {
+    color: #888;
+    font-weight: 100;
+    display: inline-block;
+    padding: 20px 0 10px;
+    margin-right: 20px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.anchor:hover {
+    color: #444;
+    -webkit-transition: color 300ms;
+    -moz-transition: color 300ms;
+    -ms-transition: color 300ms;
+    -o-transition: color 300ms;
+    transition: color 300ms;
+}
+
+.content {
+    margin-top: 40px;
+    font-size: 17pt;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.content a {
+    padding: 5px 2px;
+    background: #eaeaea;
+    color: #444;
+    cursor: pointer;
+}
+
+.content a:hover {
+    background: #f0f0f0;
+    border-bottom: 1px solid #444;
+}
+
+.content .lead {
+    font-size: 20pt;
+}
+
+.project {
+    margin-top: 30px;
+}
+.project-title h3 {
+    font-weight: 400;
+}
+
+.project-summary {
+    font-style: italic;
+    font-size: 14pt;
+    background: #eaeaea;
+    display: inline-block;
+}
+
+.project-description {
+    font-size: 13pt;
+    padding: 0px 25px;
+    margin: 20px 0;
+    border-left: 1px dashed #777;
+}
+
+.project-technologies {
+    font-size: 10pt;
+    color: #888;
+}
+
+.project-links a {
+    color: #ccc;
+    background: #444;
+    padding: 8px 21px;
+    font-size: 11pt;
+    border-radius: 3px;
+}
+
+.project-links a:hover {
+    background: #666;
+    color: #eee;
+}
+
+.project-links .demo {
+    background: #333;
+    color: #cecece;
+}
+
+.footer {
+    padding: 60px 0;
+}
