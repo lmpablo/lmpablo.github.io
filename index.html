@@ -20,27 +20,29 @@
         <div class="row navigation">
             <div class="col-sm-12">
                 <a class="anchor" href="#about">About</a>
-                <a class="anchor" href="#coding">Coding</a>
+                <a class="anchor" href="#projects">Projects</a>
                 <a class="anchor" href="#photography">Photography</a>
-                <div class="anchor">CV</div>
+                <a class="anchor" target="_blank" href="https://luismpablo.s3.amazonaws.com/resume_2017.pdf">CV</a>
             </div>
         </div>
         <div class="row content" id="about">
             <div class="col-sm-12">
                 <h2>About</h2>
                 <p>
-                    Currently a <em><a href="https://www.linkedin.com/in/luis-pablo-870a9168/">full-stack software developer</a></em> at <strong><a
-                        href="https://www.canopylabs.com">Canopy Labs</a> (YC S12)</strong>
-                    in <strong>Toronto, Canada</strong>. <br>
-                    Graduated with a double major in <em>Computer Science</em> and <em>Linguistics</em>
-                    from the <strong><a href="https://www.utoronto.ca/university-life/campuses/downtown-toronto">University of Toronto</a></strong>.</p>
+                    Currently a <a class="me" href="https://www.linkedin.com/in/luis-pablo-870a9168/">Software Engineering Manager</a>
+                    at <strong><a class="work" href="https://www.influitive.com"><i class="fa fa-briefcase"></i> Influitive</a></strong>
+                    in <strong><i class="fa fa-map-marker"></i> Toronto, Canada</strong>.<br>
+                    Previously a <em>full-stack software developer</em> at <strong>
+                        <a class="work" href="https://www.canopylabs.com">Canopy Labs</a></strong> (acquired by <strong><a class="other" href="https://www.earnwithdrop.com/">Drop</a></strong>) until 2017.</p>
                 <p>
-                    I work mainly with <strong>Python</strong>, <strong>JavaScript</strong>, <strong>HTML/CSS</strong>, and some <strong>Scala</strong>.
+                    Graduated with a double major in <em>Computer Science</em> and <em>Linguistics</em>
+                    from the <strong><a class="school" href="https://www.utoronto.ca/university-life/campuses/downtown-toronto"><i class="fa fa-graduation-cap"></i> University of Toronto</a></strong>.<br />
+                    Most recently, a <strong><a class="school" href="https://generalassemb.ly/education/product-management/toronto">General Assembly</a></strong> alum for <em>Product Management</em></p>
+                <p>
+                    I work mainly with <strong>Ruby</strong>, <strong>Python</strong>, <strong>JavaScript</strong>, <strong>HTML/CSS</strong>, and some <strong>Golang</strong>.
                     <br>
-                    Varying professional experience with: <em><a href="http://spark.apache.org/">Apache Spark</a>, AngularJS,
-                    <a href="http://mesos.apache.org/">Apache Mesos</a>, MongoDB, MySQL,</em> and <em>NodeJS/Express</em>.
-                    <br>
-                    Currently dabbling with <em>ReactJS</em>, <em>TypeScript</em> and <em>Phaser.IO</em>.
+                    Varying professional experience with: <em>Apache Spark, AngularJS,
+                    Apache Mesos, MongoDB, MySQL, Postgres, NodeJS/Express, React, </em> and <em>VueJS</em>.
                 </p>
                 <p>
                     Native speaker of <strong>English</strong> and <strong>Filipino</strong>, 簡単な会話だけできる<strong>日本語</strong>と,
@@ -50,10 +52,33 @@
                 </p>
             </div>
         </div>
-        <div class="row content" id="coding">
+        <div class="row content" id="projects">
             <div class="col-sm-12">
-                <h2>Coding</h2>
+                <h2>Projects</h2>
                 <div class="project-list">
+                    <div class="project">
+                        <div class="project-title"><h3>MoneyBuddy</h3></div>
+                        <div class="project-summary">A website to help individuals with personal finance</div>
+                        <div class="project-technologies">
+                            <p><strong>Built with:</strong> VueJS, Netlify</p>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                MoneyBuddy is a personal project that came from my own journey of learning more about
+                                personal finance. As someone who learns through general trial and error, it gave me an
+                                idea to create a set of "calculators" and visualizations that help demonstrate various
+                                concepts in personal finance, such as how dividend payouts are calculated, 
+                                the power of compounded interest, and even the pitfalls of not paying credit card bills in full.
+                            </p>
+                            <p>
+                                The entire website (as of writing) is written in Nuxt.js/VueJS and statically generated 
+                                and loaded from Netlify.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a class="demo" target="_blank" href="https://moneybuddy.ca"><i class="fa fa-play"></i> Visit</a>
+                        </div>
+                    </div>
                     <div class="project">
                         <div class="project-title"><h3>Ladder+Sudowoodo</h3></div>
                         <div class="project-summary">A ping-pong ladder system with a chatbot interface</div>
@@ -163,15 +188,13 @@
             </div>
         </div>
     </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-58FM49194S"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        ga('create', 'UA-41317497-1', 'auto');
-        ga('send', 'pageview');
-
+        gtag('config', 'G-58FM49194S');
     </script>
 </body>
 </html>

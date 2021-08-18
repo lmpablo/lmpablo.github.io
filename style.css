@@ -58,19 +58,47 @@ h2 {
     margin-top: 40px;
     font-size: 17pt;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.9;
 }
 
 .content a {
-    padding: 5px 2px;
-    background: #eaeaea;
+    padding: 5px 2px 2px 5px;
+    background: #fff;
     color: #444;
     cursor: pointer;
 }
 
 .content a:hover {
     background: #f0f0f0;
-    border-bottom: 1px solid #444;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content a.me, .content a.work, .content a.school, a.other {
+    border-bottom: 5px solid #444;
+}
+
+.content a.me:hover {
+    background: hsl(173, 33%, 88%);
+    border-bottom: 5px solid hsl(173, 58%, 39%);
+}
+
+.content a.work:hover {
+    background: hsl(12, 65%, 88%);
+    border-bottom: 5px solid hsl(12, 76%, 61%);
+}
+
+.content a.school:hover {
+    background: hsl(27, 65%, 88%);
+    border-bottom: 5px solid hsl(27, 87%, 67%);
+}
+
+.content a.other:hover {
+    background: hsl(197, 65%, 88%);
+    border-bottom: 5px solid hsl(197, 37%, 24%);
 }
 
 .content .lead {
@@ -109,10 +137,11 @@ h2 {
     padding: 8px 21px;
     font-size: 11pt;
     border-radius: 3px;
+    font-weight: 400;
 }
 
 .project-links a:hover {
-    background: #666;
+    background: #335f70;
     color: #eee;
 }
 
