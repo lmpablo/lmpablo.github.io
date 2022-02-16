@@ -101,6 +101,11 @@ h2 {
     border-bottom: 5px solid hsl(197, 37%, 24%);
 }
 
+.content .at-symbol {
+    color: #888;
+    font-weight: 100;
+}
+
 .content .lead {
     font-size: 20pt;
 }
