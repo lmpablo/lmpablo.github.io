@@ -1,160 +1,166 @@
 body {
-    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    color: #444;
-    font-weight: 300;
+  font-family: "Lexend", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #444;
+  font-weight: 300;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", "Palatino", "Times", serif;
-    font-weight: 900;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Prata", "Palatino", "Times", serif;
+  font-weight: 900;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .heading {
-    padding: 30px 0;
-    margin-left: 0;
+  padding: 30px 0;
+  margin-left: 0;
 }
 
 .heading h1 {
-    font-weight: 900;
-    font-size: 40pt;
+  font-weight: 900;
+  font-size: 40pt;
 }
 
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .heading h1 .sub {
-    font-weight: 400;
-    font-style: italic;
-    color: #888;
+  font-weight: 400;
+  font-style: italic;
+  color: #888;
 }
 
 .anchor {
-    color: #888;
-    font-weight: 100;
-    display: inline-block;
-    padding: 20px 0 10px;
-    margin-right: 20px;
-    font-size: 13pt;
-    cursor: pointer;
+  color: #888;
+  font-weight: 100;
+  display: inline-block;
+  padding: 20px 0 10px;
+  margin-right: 20px;
+  font-size: 13pt;
+  cursor: pointer;
 }
 
 .anchor:hover {
-    color: #444;
-    -webkit-transition: color 300ms;
-    -moz-transition: color 300ms;
-    -ms-transition: color 300ms;
-    -o-transition: color 300ms;
-    transition: color 300ms;
+  color: #444;
+  -webkit-transition: color 300ms;
+  -moz-transition: color 300ms;
+  -ms-transition: color 300ms;
+  -o-transition: color 300ms;
+  transition: color 300ms;
 }
 
 .content {
-    margin-top: 40px;
-    font-size: 17pt;
-    font-weight: 300;
-    line-height: 1.9;
+  margin-top: 40px;
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 1.9;
 }
 
 .content a {
-    padding: 5px 2px 2px 5px;
-    background: #fff;
-    color: #444;
-    cursor: pointer;
+  padding: 5px 2px 2px 5px;
+  background: #fff;
+  color: #444;
+  cursor: pointer;
 }
 
 .content a:hover {
-    background: #f0f0f0;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    -ms-transition: all 300ms;
-    -o-transition: all 300ms;
-    transition: all 300ms;
+  background: #f0f0f0;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
 }
 
-.content a.me, .content a.work, .content a.school, a.other {
-    border-bottom: 5px solid #444;
+.content a.me,
+.content a.work,
+.content a.school,
+a.other {
+  border-bottom: 5px solid #444;
 }
 
 .content a.me:hover {
-    background: hsl(173, 33%, 88%);
-    border-bottom: 5px solid hsl(173, 58%, 39%);
+  background: hsl(173, 33%, 88%);
+  border-bottom: 5px solid hsl(173, 58%, 39%);
 }
 
 .content a.work:hover {
-    background: hsl(12, 65%, 88%);
-    border-bottom: 5px solid hsl(12, 76%, 61%);
+  background: hsl(12, 65%, 88%);
+  border-bottom: 5px solid hsl(12, 76%, 61%);
 }
 
 .content a.school:hover {
-    background: hsl(27, 65%, 88%);
-    border-bottom: 5px solid hsl(27, 87%, 67%);
+  background: hsl(27, 65%, 88%);
+  border-bottom: 5px solid hsl(27, 87%, 67%);
 }
 
 .content a.other:hover {
-    background: hsl(197, 65%, 88%);
-    border-bottom: 5px solid hsl(197, 37%, 24%);
+  background: hsl(197, 65%, 88%);
+  border-bottom: 5px solid hsl(197, 37%, 24%);
 }
 
 .content .at-symbol {
-    color: #888;
-    font-weight: 100;
+  color: #888;
+  font-weight: 100;
 }
 
 .content .lead {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 
 .project {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .project-title h3 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .project-summary {
-    font-style: italic;
-    font-size: 14pt;
-    background: #eaeaea;
-    display: inline-block;
+  font-style: italic;
+  font-size: 14pt;
+  background: #eaeaea;
+  display: inline-block;
 }
 
 .project-description {
-    font-size: 13pt;
-    padding: 0px 25px;
-    margin: 20px 0;
-    border-left: 1px dashed #777;
+  font-size: 13pt;
+  padding: 0px 25px;
+  margin: 20px 0;
+  border-left: 1px dashed #777;
 }
 
 .project-technologies {
-    font-size: 10pt;
-    color: #888;
+  font-size: 10pt;
+  color: #888;
 }
 
 .project-links a {
-    color: #ccc;
-    background: #444;
-    padding: 8px 21px;
-    font-size: 11pt;
-    border-radius: 3px;
-    font-weight: 400;
+  color: #ccc;
+  background: #444;
+  padding: 8px 21px;
+  font-size: 11pt;
+  border-radius: 3px;
+  font-weight: 400;
 }
 
 .project-links a:hover {
-    background: #335f70;
-    color: #eee;
+  background: #335f70;
+  color: #eee;
 }
 
 .project-links .demo {
-    background: #333;
-    color: #cecece;
+  background: #333;
+  color: #cecece;
 }
 
 .footer {
-    padding: 60px 0;
+  padding: 60px 0;
 }

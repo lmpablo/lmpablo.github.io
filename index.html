@@ -1,204 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Luis M Pablo</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900|Playfair+Display:400,400i,700,900" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="heading">
-                    <h1>Luis<span class="sub">M</span>Pablo</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row navigation">
-            <div class="col-sm-12">
-                <a class="anchor" href="#about">About</a>
-                <a class="anchor" href="#projects">Projects</a>
-                <a class="anchor" href="#contact">Contact</a>
-                <a class="anchor" href="#photography">Photography</a>
-                <a class="anchor" target="_blank" href="https://luismpablo.s3.amazonaws.com/Resume2021.pdf">CV</a>
-            </div>
-        </div>
-        <div class="row content" id="about">
-            <div class="col-sm-12">
-                <h2>About</h2>
-                <p></p>
-                <p>
-                    Previously, a <a class="me" href="https://www.linkedin.com/in/luis-pablo-870a9168/">Senior Software Engineer / Tech Lead</a> 
-                    at <strong><a class="work" href="https://www.aboutwayfair.com"><i class="fa fa-briefcase"></i> Wayfair</a></strong>
-                    in <strong><i class="fa fa-map-marker"></i> Toronto, Canada</strong>.<br>
-                    Prior, a <em>Software Engineering Manager</em> at 
-                    <strong><a class="work" href="https://www.influitive.com">Influitive</a></strong>, and before that, <br>
-                    a <em>full-stack Software Engineer</em> at <strong>
-                        <a class="work" href="https://www.canopylabs.com">Canopy Labs</a></strong> (acquired by <strong><a class="other" href="https://www.earnwithdrop.com/">Drop</a></strong>) until 2017.</p>
-                <p>
-                    Graduated with a double major in <em>Computer Science</em> and <em>Linguistics</em>
-                    from the <strong><a class="school" href="https://www.utoronto.ca/university-life/campuses/downtown-toronto"><i class="fa fa-graduation-cap"></i> University of Toronto</a></strong>.<br />
-                    As well, a <strong><a class="school" href="https://generalassemb.ly/education/product-management/toronto">General Assembly</a></strong> alum for <em>Product Management</em>.</p>
-                <p>
-                    I work mainly with <strong>Python</strong>,  <strong>Java</strong>, <strong>JavaScript &lpar;React &amp; Svelte[Kit]&rpar;</strong>, and some <strong>Golang</strong>.
-                </p>
-                <p>
-                    Native speaker of <strong>English</strong> and <strong>Filipino</strong>, 簡単な会話だけできる<strong>日本語</strong>と,
-                    étage élémentaire de <strong>français</strong>.
-                    <br>
-                    Hobbies in photography, guitar, and sim racing.
-                </p>
-            </div>
-        </div>
-        <div class="row content" id="projects">
-            <div class="col-sm-12">
-                <h2>Projects</h2>
-                <div class="project-list">
-                    <div class="project">
-                        <div class="project-title"><h3>Granite</h3></div>
-                        <div class="project-summary">Helping Canadians with personal finance</div>
-                        <div class="project-technologies">
-                            <p><strong>Built with:</strong> SvelteKit, FastAPI</p>
-                        </div>
-                        <div class="project-description">
-                            <p>
-                                Granite (prev. MoneyBuddy) will be an AI-powered stock tracking tool designed to help Canadians gain a 
-                                <strong>clear, consolidated view</strong> of their financial health. By integrating multiple investment accounts, 
-                                it delivers <strong>insightful analytics, performance tracking, and AI-driven recommendations</strong> 
-                                to optimize portfolios. Whether it's monitoring market trends, tracking dividends, or assessing diversification, 
-                                Granite empowers users to <strong>make smarter financial decisions with ease</strong>.
-                            </p>
-                        </div>
-                        <div class="project-links">
-                            <a class="demo" target="_blank" href="https://getgranite.app"><i class="fa fa-play"></i> Visit</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-title"><h3>Ladder+Sudowoodo</h3></div>
-                        <div class="project-summary">A ping-pong ladder system with a chatbot interface</div>
-                        <div class="project-technologies">
-                            <p><strong>Built with:</strong> HTML/CSS, jQuery, Python, Flask, MongoDB, nodeJS</p>
-                        </div>
-                        <div class="project-description">
-                            <p>
-                                Ladder is a simple leaderboard and ladder platform to keep track of office ping-pong stats
-                                of its employees <em>(not company property)</em>. The system uses the Elo rating system
-                                to calculate the relative placements of the participants. The platform was built with Python on Flask
-                                and it's Jinja templating to display profiles and using MongoDB as its backing.
-                            </p>
-                            <p>
-                                The personal profiles of the particpants featured:
-                                <ul>
-                                <li>their Elo Score history</li>
-                                <li>Slack profile picture + handle</li>
-                                <li>Win streak, lose streak, average points per game</li>
-                                <li>Game stats breakdown per opponent</li>
-                                </ul>
-                            </p>
-                            <p>
-                                The platform itself did not have a UI portion to input scores or match results, but instead
-                                relied on the Slack chatbot "Sudowoodo". The chatbot received commands in Slack with match
-                                outcomes which it then parsed and recorded through the Ladder API with HTTP calls. The chatbot
-                                supported several recognition patterns for inputting match results and querying stats.
-                                It was also able to provide opponent suggestions and other basic conversational skills.
-                            </p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/lmpablo/ladder"><i class="fa fa-github"></i> Source Code (Ladder)</a>
-                            <a href="https://github.com/lmpablo/sudowoodo"><i class="fa fa-github"></i> Source Code (Sudowoodo)</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-title"><h3>OverParse</h3></div>
-                        <div class="project-summary">A screenshot parser for the game Overwatch</div>
-                        <div class="project-technologies">
-                            <p><strong>Built with:</strong> Python, OpenCV2</p>
-                        </div>
-                        <div class="project-description">
-                            <p>
-                                As part of our ongoing efforts to compete within the videogame/e-sport Overwatch, a
-                                friend and I have been keeping track of our stats of our 1v1 matches. This includes
-                                win-loss rates, win-loss rates on specific hero matchups and preferred heroes.
-                            </p>
-                            <p>
-                                After every 1v1 game, Overwatch provides a match result summary that gives the following
-                                information:
-                                <ul>
-                                    <li>Hero usage</li>
-                                    <li>Round results</li>
-                                    <li>Final scores</li>
-                                </ul>
-                                OverParse is a simple screenshot parsing tool built for myself to easily extract
-                                stats from the results screen of a 1v1 match onto a CSV or JSON file that can be
-                                easily copy pasted to the rest of the existing results.
-                            </p>
-                            <p>
-                                The final result is to have the entire process automated and provide the user (me)
-                                with the visualized result of our stats and perhaps even opening the tool the gaming
-                                community.
-                            </p>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/lmpablo/OverParse"><i class="fa fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-title"><h3>HTML5 Tetris</h3></div>
-                        <div class="project-summary">The classic game of Tetris</div>
-                        <div class="project-technologies">
-                            <p><strong>Built with:</strong> HTML/CSS, TypeScript, JavaScript</p>
-                        </div>
-                        <div class="project-description">
-                            <p>
-                                Originally implemented using HTML5 Canvas with vanilla JavaScript, I've recently ported it over to TypeScript
-                                as a means to learn the language. As part of the port, the code was refactored for better code
-                                organization and simplified code logic in some sections. As a challenge, no external graphic assets
-                                were used -- everything is drawn using the Canvas API.
-                            </p>
-                            <p>
-                                Features include a basic scoring system, hold piece functionality, and a ghost piece-guiding system.
-                            </p>
-                        </div>
-                        <div class="project-links">
-                            <a class="demo" href="http://tetris.luismpablo.com"><i class="fa fa-play"></i> Demo</a>
-                            <a href="https://github.com/lmpablo/html5-tetris"><i class="fa fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row content" id="contact">
-            <div class="col-sm-12">
-                <h2>Contact</h2>
-                <p>Reach me at <strong><em>me</em></strong><span class="at-symbol">[&commat;]</span><em>luismpablo.com</em></p>
-            </div>
-        </div>
-        <div class="row content" id="photography">
-            <div class="col-sm-12">
-                <h2>Photography</h2>
-                <p><em>Gallery currently unavailable</em>.</p>
-                <p>Please visit <a href="https://www.instagram.com/luism____/">my instagram account</a> instead.</p>
-            </div>
-        </div>
-        <div class="row footer">
-            <div class="col-sm-12">
-                <div class="text-center">
-                    <p>Copyright Luis Pablo &copy; 2025</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-58FM49194S"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-58FM49194S"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-58FM49194S');
+      gtag("config", "G-58FM49194S");
     </script>
-</body>
+  </head>
+  <body class="bg-stone-100">
+    <div class="flex flex-col max-h-screen min-h-screen px-10 py-10">
+      <div class="flex flex-col gap-2 max-w-prose">
+        <span class="text-2xl">Hi, I'm</span>
+        <h1 class="text-5xl md:text-7xl font-bold">
+          Luis<span class="text-slate-500 font-bolder">M</span>Pablo
+        </h1>
+        <div
+          class="flex flex-row items-center justify-between max-w-[200px] text-3xl"
+        >
+          <a
+            href="https://www.linkedin.com/in/luis-pablo-870a9168/"
+            target="_blank"
+            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/lmpablo"
+            target="_blank"
+            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/luism____/"
+            target="_blank"
+            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col mt-20 gap-10">
+        <div class="flex flex-row items-start gap-2">
+          <span class="text-lg md:text-3xl font-bold text-slate-600">
+            <i class="fa fa-briefcase"></i>
+          </span>
+          <div class="flex flex-col gap-2 ml-3">
+            <span class="font-bold text-lg md:text-3xl text-slate-600"
+              >Co-Founder & CTO</span
+            >
+            <a
+              href="https://www.usegreenline.com"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+              ><span class="text-base md:text-2xl">Greenline</span></a
+            >
+            <p class="text-stone-600 max-w-prose">
+              Track investments, visualize holdings, and get portfolio insights
+              with Canada's newest investment portfolio tracker.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-row items-start gap-2">
+          <span class="text-lg md:text-3xl font-bold">
+            <i class="fa fa-briefcase"></i>
+          </span>
+          <div class="flex flex-col gap-2 ml-3">
+            <span class="font-bold text-lg md:text-3xl"
+              >Staff Engineer &amp; Tech Lead</span
+            >
+            <a
+              href="https://aboutwayfair.com"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+              ><span class="text-base md:text-2xl">Wayfair</span></a
+            >
+          </div>
+        </div>
+        <div class="flex flex-row items-start gap-2">
+          <span class="text-lg md:text-3xl font-bold">
+            <i class="fa fa-briefcase"></i>
+          </span>
+          <div class="flex flex-col gap-2 ml-3">
+            <span class="font-bold text-lg md:text-3xl"
+              >Software Engineering Manager & Tech Lead</span
+            >
+            <a
+              href="https://influitive.com"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+            >
+              <span class="text-base md:text-2xl">Influitive</span>
+              <span class="text-base md:text-2xl text-stone-400"
+                >(acq'd by Jigsaw)</span
+              ></a
+            >
+          </div>
+        </div>
+        <div class="flex flex-row items-start gap-2 text-stone-500">
+          <span class="text-lg md:text-3xl font-bold">
+            <i class="fa fa-graduation-cap"></i>
+          </span>
+          <div class="flex flex-col gap-2">
+            <span class="font-bold text-lg md:text-3xl"
+              >Product Management Bootcamp</span
+            >
+            <a
+              href="https://generalassemb.ly/education/product-management/toronto"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+            >
+              <span class="text-base md:text-2xl">General Assembly</span></a
+            >
+          </div>
+        </div>
+        <div class="flex flex-row items-start gap-2">
+          <span class="text-lg md:text-3xl font-bold">
+            <i class="fa fa-briefcase"></i>
+          </span>
+          <div class="flex flex-col gap-2 ml-3">
+            <span class="font-bold text-lg md:text-3xl">Software Engineer</span>
+            <a
+              href="https://canopylabs.com"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+            >
+              <span class="text-base md:text-2xl">Canopy Labs</span>
+              <span class="text-base md:text-2xl text-stone-400 underline-0"
+                >(acq'd by Drop)</span
+              ></a
+            >
+          </div>
+        </div>
+        <div class="flex flex-row items-start gap-2 text-stone-500">
+          <span class="text-lg md:text-3xl font-bold">
+            <i class="fa fa-graduation-cap"></i>
+          </span>
+          <div class="flex flex-col gap-2">
+            <span class="font-bold text-lg md:text-3xl"
+              >Honours Bachelor of Science, <br />
+              Computer Science & Linguistics</span
+            >
+            <a
+              href="https://www.utoronto.ca/university-life/campuses/downtown-toronto"
+              target="_blank"
+              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
+            >
+              <span class="text-base md:text-2xl"
+                >University of Toronto</span
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col mt-20 gap-10 sm:items-end justify-end">
+        <div class="text-center pb-10">
+          <p>Copyright Luis Pablo &copy; 2025</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
