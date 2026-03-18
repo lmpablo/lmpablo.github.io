@@ -11,10 +11,6 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" href="style.css" />
     <script
       async
@@ -26,161 +22,128 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-58FM49194S");
     </script>
   </head>
-  <body class="bg-stone-100">
-    <div class="flex flex-col max-h-screen min-h-screen px-10 py-10">
-      <div class="flex flex-col gap-2 max-w-prose">
-        <span class="text-2xl">Hi, I'm</span>
-        <h1 class="text-5xl md:text-7xl font-bold">
-          Luis<span class="text-slate-500 font-bolder">M</span>Pablo
-        </h1>
-        <div
-          class="flex flex-row items-center justify-between max-w-[200px] text-3xl"
-        >
-          <a
-            href="https://www.linkedin.com/in/luis-pablo-870a9168/"
-            target="_blank"
-            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
-          >
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/lmpablo"
-            target="_blank"
-            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
-          >
-            <i class="fa fa-github"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/luism____/"
-            target="_blank"
-            class="underline underline-offset-10 hover:text-slate-500 hover:underline"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-        </div>
-      </div>
-      <div class="flex flex-col mt-20 gap-10">
-        <div class="flex flex-row items-start gap-2">
-          <span class="text-lg md:text-3xl font-bold text-slate-600">
-            <i class="fa fa-briefcase"></i>
-          </span>
-          <div class="flex flex-col gap-2 ml-1 md:ml-3">
-            <span class="font-bold text-lg md:text-3xl text-slate-600"
-              >Co-Founder & CTO</span
-            >
+  <body>
+    <!-- Hero -->
+    <section class="min-h-screen flex flex-col justify-end px-6 md:pl-32 md:pr-8 pb-12 md:pb-24 relative">
+      <nav class="absolute top-8 right-6 md:top-10 md:right-12 flex gap-5 text-sm tracking-wide">
+        <a
+          href="https://www.linkedin.com/in/luis-pablo-870a9168/"
+          target="_blank"
+          class="social-link"
+        >LinkedIn</a>
+        <a
+          href="https://github.com/lmpablo"
+          target="_blank"
+          class="social-link"
+        >GitHub</a>
+        <a
+          href="https://www.instagram.com/luism____/"
+          target="_blank"
+          class="social-link"
+        >Instagram</a>
+      </nav>
+
+      <p class="text-lg md:text-xl mb-3 tracking-wide">Hi, I'm</p>
+      <h1 class="text-5xl md:text-[8rem] leading-none tracking-tight font-bold">Luis<span class="text-[#E63B2E] font-normal">M</span>Pablo</h1>
+    </section>
+
+    <!-- Experience -->
+    <section class="px-6 md:pl-32 md:pr-8 py-16 md:py-24">
+      <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-8">
+        <div class="flex flex-col gap-12 md:gap-16 max-w-2xl">
+
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm md:text-base font-semibold">Co-Founder &amp; CTO</span>
             <a
               href="https://www.usegreenline.com"
               target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-              ><span class="text-base md:text-2xl">Greenline</span></a
-            >
-            <p class="text-stone-600 max-w-prose">
-              Track investments, visualize holdings, and get portfolio insights
-              with Canada's newest investment portfolio tracker.
+              class="company-link block mt-1 text-lg md:text-2xl text-[#E63B2E]"
+            >Greenline</a>
+            <p class="mt-3 text-[#8C8580] text-sm md:text-base max-w-prose leading-relaxed">
+              Your financial picture, explained. Every account, every Canadian
+              brokerage, one view — with a daily summary of what moved and what matters.
             </p>
           </div>
-        </div>
-        <div class="flex flex-row items-start gap-2">
-          <span class="text-lg md:text-3xl font-bold">
-            <i class="fa fa-briefcase"></i>
-          </span>
-          <div class="flex flex-col gap-2 ml-1 md:ml-3">
-            <span class="font-bold text-lg md:text-3xl"
-              >Staff Engineer &amp; Tech Lead</span
-            >
+
+          <!-- Past roles -->
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm md:text-base font-semibold">Staff Engineer &amp; Tech Lead</span>
             <a
               href="https://aboutwayfair.com"
               target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-              ><span class="text-base md:text-2xl">Wayfair</span></a
-            >
+              class="company-link block mt-1 text-lg md:text-xl"
+            >Wayfair</a>
+            <p class="mt-3 text-[#8C8580] text-sm md:text-base max-w-prose leading-relaxed">
+              Led home services engineering. Migrated a decade-old pricing system
+              to a multi-region API computing dynamic prices in under 10ms.
+            </p>
           </div>
-        </div>
-        <div class="flex flex-row items-start gap-2">
-          <span class="text-lg md:text-3xl font-bold">
-            <i class="fa fa-briefcase"></i>
-          </span>
-          <div class="flex flex-col gap-2 ml-1 md:ml-3">
-            <span class="font-bold text-lg md:text-3xl"
-              >Software Engineering Manager & Tech Lead</span
-            >
+
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm md:text-base font-semibold">Software Engineering Manager &amp; Tech Lead</span>
             <a
               href="https://influitive.com"
               target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-            >
-              <span class="text-base md:text-2xl">Influitive</span>
-              <span class="text-base md:text-2xl text-stone-400"
-                >(acq'd by Jigsaw)</span
-              ></a
-            >
+              class="company-link block mt-1 text-lg md:text-xl"
+            >Influitive <span class="text-[#8C8580]">(acq'd by Jigsaw)</span></a>
+            <p class="mt-3 text-[#8C8580] text-sm md:text-base max-w-prose leading-relaxed">
+              Managed 8 engineers across two teams, led a backend API rewrite,
+              and shipped the platform's highest-volume email redesign.
+            </p>
           </div>
-        </div>
-        <div class="flex flex-row items-start gap-2 text-stone-500">
-          <span class="text-lg md:text-3xl font-bold">
-            <i class="fa fa-graduation-cap"></i>
-          </span>
-          <div class="flex flex-col gap-2">
-            <span class="font-bold text-lg md:text-3xl"
-              >Product Management Bootcamp</span
-            >
-            <a
-              href="https://generalassemb.ly/education/product-management/toronto"
-              target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-            >
-              <span class="text-base md:text-2xl">General Assembly</span></a
-            >
-          </div>
-        </div>
-        <div class="flex flex-row items-start gap-2">
-          <span class="text-lg md:text-3xl font-bold">
-            <i class="fa fa-briefcase"></i>
-          </span>
-          <div class="flex flex-col gap-2 ml-1 md:ml-3">
-            <span class="font-bold text-lg md:text-3xl">Software Engineer</span>
+
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm md:text-base font-semibold">Software Engineer</span>
             <a
               href="https://canopylabs.com"
               target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-            >
-              <span class="text-base md:text-2xl">Canopy Labs</span>
-              <span class="text-base md:text-2xl text-stone-400 underline-0"
-                >(acq'd by Drop)</span
-              ></a
-            >
+              class="company-link block mt-1 text-lg md:text-xl"
+            >Canopy Labs <span class="text-[#8C8580]">(acq'd by Drop)</span></a>
+            <p class="mt-3 text-[#8C8580] text-sm md:text-base max-w-prose leading-relaxed">
+              Built data pipelines for Canada's largest book retailer and owned
+              multiple microservices powering the core analytics platform.
+            </p>
           </div>
         </div>
-        <div class="flex flex-row items-start gap-2 text-stone-500">
-          <span class="text-lg md:text-3xl font-bold">
-            <i class="fa fa-graduation-cap"></i>
-          </span>
-          <div class="flex flex-col gap-2">
-            <span class="font-bold text-lg md:text-3xl"
-              >Honours Bachelor of Science, <br />
-              Computer Science & Linguistics</span
-            >
+
+        <span class="section-label hidden md:block text-6xl lg:text-8xl">Experience</span>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="px-6 md:pr-32 md:pl-8 py-16 md:py-24 md:text-right">
+      <div class="md:ml-auto md:max-w-lg">
+        <span class="section-label text-3xl md:text-5xl block mb-10">Education</span>
+
+        <div class="flex flex-col gap-8">
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm font-semibold text-[#8C8580]">Product Management Bootcamp</span>
+            <a
+              href="https://generalassemb.ly/education/product-management/toronto"
+              target="_blank"
+              class="company-link block mt-1 text-base md:text-lg"
+            >General Assembly</a>
+          </div>
+
+          <div>
+            <span class="uppercase tracking-[0.15em] text-sm font-semibold">Honours Bachelor of Science, Computer Science &amp; Linguistics</span>
             <a
               href="https://www.utoronto.ca/university-life/campuses/downtown-toronto"
               target="_blank"
-              class="underline underline-offset-10 hover:text-slate-500 hover:underline after:content-['_↗']"
-            >
-              <span class="text-base md:text-2xl"
-                >University of Toronto</span
-              ></a
-            >
+              class="company-link block mt-1 text-base md:text-lg"
+            >University of Toronto</a>
           </div>
         </div>
       </div>
-      <div class="flex flex-col mt-20 gap-10 sm:items-end justify-end">
-        <div class="text-center pb-10">
-          <p>Copyright Luis Pablo &copy; 2025</p>
-        </div>
-      </div>
-    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="px-6 md:pl-32 md:pr-8 py-8">
+      <hr class="border-[#E63B2E] mb-8 max-w-24" />
+      <p class="text-sm text-[#8C8580]">Copyright Luis Pablo &copy; 2026</p>
+    </footer>
   </body>
 </html>
